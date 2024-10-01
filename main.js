@@ -1,7 +1,10 @@
 function clicks() {
+
     $('#div1').hide();
     $('#div2').show();
     $('#div2').addClass("fadeinv2");
+    
+    document.getElementById('mySound').play();
         
     var typed = new Typed('.katakata', {
         strings: ["Dear Mutia Alima Ayu Arlendi", 
@@ -21,4 +24,8 @@ function clicks() {
             "Yang jelas, I Love You Mutia Alima Ayu Arlendi"],
         typeSpeed: 70
     });
+
+
+
+ 
 }
